@@ -1,31 +1,51 @@
-# 🎨 Cultural IP Vault
+# 🎭 Cultural IP Vault – Andromeda Hackathon Submission
 
-**Preserving & Tokenizing Traditional Art with AI + Blockchain (aOS)**
+This project is part of the **Andromeda Hackathon – Data Retrieval Task**.
 
-This project empowers indigenous artists by transforming their traditional art into protected and monetizable digital assets.
+## 📌 Overview
 
-## 💡 Features
+**Cultural IP Vault** is a simple decentralized app built using the Andromeda App Builder. It allows users to:
 
-- Upload traditional artwork
-- AI-generated cultural metadata
-- Simulated NFT minting using aOS CW721 ADO
-- Royalty distribution logic
-- Future integration with aOS marketplace
+- ✅ Create NFTs representing cultural artifacts
+- ✅ Retrieve and display metadata stored on-chain using a reader panel
 
-## 🚀 How to Run
+This demo app is focused on the task of interacting with smart contract data via the Builder, using NFTs as the base asset.
 
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-```
+---
 
-## 🛠 Requirements
+## 📁 Included Files
 
-- Streamlit
-- Pillow
+| File                  | Description                                   |
+|-----------------------|-----------------------------------------------|
+| `cultural-ip-vault.flex` | Exported App Builder file with NFT + reader panel |
+| `screenshot.png`      | *(Optional)* UI preview screenshot of the app |
 
-## 🔗 Future Enhancements
+---
 
-- Real blockchain integration (aOS)
-- Mobile app onboarding
-- Oral traditions, music, and rituals support
+## 🛠️ Features
+
+- NFT Creator Panel (`Cultural Artifact`, symbol: `CULTIP`)
+- Metadata Reader Panel (displays `name`, `symbol`, `owner`, and `tokenURI`)
+- Fully no-code setup using the Andromeda App Builder
+- Can be imported back into the Builder when it’s available again
+
+---
+
+## 🚀 How to Use
+
+1. Visit [console.andromedaprotocol.io](https://console.andromedaprotocol.io) *(once back online)*
+2. Load this `.flex` file using the **"Load"** option
+3. View and customize the app or deploy it on-chain
+4. Use the reader panel to fetch NFT metadata
+
+---
+
+## 📷 Screenshot
+
+![App Screenshot](screenshot.png)
+
+---
+
+## 🙌 Credits
+
+Built by **[@Karthikeya172001](https://github.com/Karthikeya172001)** for the Andromeda Hackathon.
