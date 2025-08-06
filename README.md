@@ -1,51 +1,40 @@
-# 🎭 Cultural IP Vault – Andromeda Hackathon Submission
+# 🎭 Cultural IP Vault
 
-This project is part of the **Andromeda Hackathon – Data Retrieval Task**.
+Preserving & Tokenizing Traditional Art using AI + Blockchain (aOS)
 
-## 📌 Overview
-
-**Cultural IP Vault** is a simple decentralized app built using the Andromeda App Builder. It allows users to:
-
-- ✅ Create NFTs representing cultural artifacts
-- ✅ Retrieve and display metadata stored on-chain using a reader panel
-
-This demo app is focused on the task of interacting with smart contract data via the Builder, using NFTs as the base asset.
+This project is built for the **Andromeda Hackathon – Data Retrieval Task**, combining the power of the **App Builder** (aOS) and a **Python frontend** for a complete simulation of minting cultural NFTs.
 
 ---
 
-## 📁 Included Files
+## 📂 What's Included
 
-| File                  | Description                                   |
-|-----------------------|-----------------------------------------------|
-| `cultural-ip-vault.flex` | Exported App Builder file with NFT + reader panel |
-| `screenshot.png`      | *(Optional)* UI preview screenshot of the app |
-
----
-
-## 🛠️ Features
-
-- NFT Creator Panel (`Cultural Artifact`, symbol: `CULTIP`)
-- Metadata Reader Panel (displays `name`, `symbol`, `owner`, and `tokenURI`)
-- Fully no-code setup using the Andromeda App Builder
-- Can be imported back into the Builder when it’s available again
+| File                      | Description                                                |
+|---------------------------|------------------------------------------------------------|
+| `cultural-ip-vault.flex`  | Exported App Builder file (.flex) for NFT + Reader Panel   |
+| `app.py`                  | Streamlit app for uploading cultural artwork + minting NFT |
+| `screenshot.png` (opt)    | UI preview screenshot                                      |
 
 ---
 
-## 🚀 How to Use
+## 🎨 Features
 
-1. Visit [console.andromedaprotocol.io](https://console.andromedaprotocol.io) *(once back online)*
-2. Load this `.flex` file using the **"Load"** option
-3. View and customize the app or deploy it on-chain
-4. Use the reader panel to fetch NFT metadata
+### 🔧 aOS Builder (via `.flex` file)
+- NFT Creation Panel (CW721 ADO)
+- Metadata Reader Panel (displays name, symbol, owner, tokenURI)
+
+### 🧠 Streamlit App
+- Upload traditional cultural artwork
+- Simulated AI-generated metadata (Art form, Region, Artist, Significance)
+- Simulated NFT Minting using CW721 ADO logic
+- Simulated Royalty Distribution using Conditional Splitter ADO
+- Placeholder: Publish to aOS Marketplace
 
 ---
 
-## 📷 Screenshot
+## 🚀 How to Run the Frontend
 
-![App Screenshot](screenshot.png)
+If you'd like to test the simulation locally, run:
 
----
-
-## 🙌 Credits
-
-Built by **[@Karthikeya172001](https://github.com/Karthikeya172001)** for the Andromeda Hackathon.
+```bash
+pip install streamlit pillow
+streamlit run app.py
