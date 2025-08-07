@@ -1,40 +1,75 @@
-# 🎭 Cultural IP Vault
+# 🎨 Cultural IP Vault
 
-Preserving & Tokenizing Traditional Art using AI + Blockchain (aOS)
+Preserving and Tokenizing Traditional Art using **AI + Blockchain** on the **Andromeda Operating System (aOS)**.
 
-This project is built for the **Andromeda Hackathon – Data Retrieval Task**, combining the power of the **App Builder** (aOS) and a **Python frontend** for a complete simulation of minting cultural NFTs.
+## 🌍 Overview
 
----
+Cultural IP Vault is a decentralized application that allows artists and curators to:
 
-## 📂 What's Included
-
-| File                      | Description                                                |
-|---------------------------|------------------------------------------------------------|
-| `cultural-ip-vault.flex`  | Exported App Builder file (.flex) for NFT + Reader Panel   |
-| `app.py`                  | Streamlit app for uploading cultural artwork + minting NFT |
-| `screenshot.png` (opt)    | UI preview screenshot                                      |
+- Upload traditional artwork (e.g., Kalamkari, Madhubani, Warli)
+- Automatically generate metadata using AI
+- Simulate minting the artwork as an NFT on Andromeda’s CW721 ADO
+- Visualize royalty distribution using a Conditional Splitter ADO
+- Prepare for on-chain publishing to protect cultural heritage
 
 ---
 
-## 🎨 Features
+## 🖼️ Screenshot
 
-### 🔧 aOS Builder (via `.flex` file)
-- NFT Creation Panel (CW721 ADO)
-- Metadata Reader Panel (displays name, symbol, owner, tokenURI)
-
-### 🧠 Streamlit App
-- Upload traditional cultural artwork
-- Simulated AI-generated metadata (Art form, Region, Artist, Significance)
-- Simulated NFT Minting using CW721 ADO logic
-- Simulated Royalty Distribution using Conditional Splitter ADO
-- Placeholder: Publish to aOS Marketplace
+![screenshot](screenshot.png)
 
 ---
 
-## 🚀 How to Run the Frontend
+## 🚀 Live Demo
 
-If you'd like to test the simulation locally, run:
+Try the frontend on **Streamlit** here:
 
-```bash
-pip install streamlit pillow
-streamlit run app.py
+👉 [https://cultural-ip-vault-ghbzzkmdrfdndsabffnkij.streamlit.app/](https://cultural-ip-vault-ghbzzkmdrfdndsabffnkij.streamlit.app/)
+
+---
+
+## 📂 Files Included
+
+| File                  | Description                                     |
+|-----------------------|-------------------------------------------------|
+| `app.py`              | Streamlit frontend for uploading & minting     |
+| `cultural-ip-vault.flex` | Andromeda .flex export of app config           |
+| `screenshot.png`      | App UI screenshot used for preview              |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Streamlit** – Frontend UI
+- **Andromeda aOS** – NFT + Royalty mint simulation (CW721 + Conditional Splitter)
+- **Python + PIL** – Image handling
+- **Simulated AI** – Metadata generation placeholder
+
+---
+
+## 💡 Use Cases
+
+- Protect indigenous artwork from cultural appropriation
+- Enable artists to receive royalties via smart contracts
+- Archive and tokenize folk art styles and regional IPs
+
+---
+
+## 🏗️ Future Work
+
+- Integrate real Andromeda wallet connection
+- Enable on-chain publishing via aOS CLI or ADO builder
+- Use real AI models (e.g., Gemini or GPT-4) for metadata
+
+---
+
+## 🤝 Built for
+
+**[Andromeda Hackathon 2025](https://console.andromedaprotocol.io)**  
+_Task: Data Retrieval + Deployment & Tokenization via ADO Builder/CLI_
+
+---
+
+## 👤 Author
+
+- **Karthikeya** – [github.com/Karthikeya172001](https://github.com/Karthikeya172001)
